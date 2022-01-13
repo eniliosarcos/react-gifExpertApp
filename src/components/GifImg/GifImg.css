@@ -1,0 +1,15 @@
+.card {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.card p {
+  padding: 5px;
+}
+.hide{
+  display: none;
+}
+
+img{
+  max-height: 120px;
+  border-radius: 5px;
+}
