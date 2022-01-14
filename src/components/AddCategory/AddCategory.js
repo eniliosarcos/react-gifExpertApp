@@ -8,6 +8,7 @@ const AddCategory = ({setCategory}) => {
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
+    
   };
 
   const handleSubmit = (event) => {

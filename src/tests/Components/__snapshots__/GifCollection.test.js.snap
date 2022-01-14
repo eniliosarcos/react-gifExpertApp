@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente GifCollection Debe de mostrar el componente correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown animate__faster"
+  >
+    Dragon ball
+  </h3>
+  <p
+    className="animate__animated animate__flash animate__slow animate__infinite"
+  >
+    Cargando...
+  </p>
+  <div
+    className="grid"
+  />
+</Fragment>
+`;

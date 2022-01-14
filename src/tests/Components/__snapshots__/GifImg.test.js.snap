@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en Componente GifImg Debe de mostrar el componente correctamente 1`] = `
+<img
+  alt="esto es un titulo"
+  className="hide"
+  onLoad={[Function]}
+  src="https://prueba.com"
+/>
+`;

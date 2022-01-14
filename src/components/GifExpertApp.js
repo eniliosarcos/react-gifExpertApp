@@ -3,8 +3,8 @@ import "./GifExpertApp.css";
 import AddCategory from "./AddCategory/AddCategory";
 import GifCollection from "./GifCollection/GifCollection";
 
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Dragon ball"]);
+const GifExpertApp = ({defaultCategories = []}) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <div>

@@ -20,6 +20,8 @@ const GifCollection = ({ collection }) => {
   );
 };
 
-GifCollection.propTypes = {};
+GifCollection.propTypes = {
+  collection: PropTypes.string.isRequired
+};
 
 export default GifCollection;

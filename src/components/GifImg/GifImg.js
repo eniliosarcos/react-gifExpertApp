@@ -12,9 +12,7 @@ const GifImg = ({ title, url }) => {
     }
 
     return (
-        <div className='card'>
             <img className='hide' src={url} alt={title} onLoad={handleAnimation}></img>
-        </div>
     )
 }
 
